@@ -2,3 +2,12 @@
     # Ex: Ana Maria de Souza
     # primeiro = Ana
     # último = Souza
+
+nome = input('Insira seu nome: ').strip()
+
+print('Primeiro nome: {}'.format(nome[:nome.find(' ')]))
+print('Último nome: {}'.format(nome[nome.rfind(' '):]))
+
+# n = nome.split()
+# print('Primeiro nome: {}'.format(n[0]))
+# print('Último nome: {}'.format(n[len(n) - 1]))
