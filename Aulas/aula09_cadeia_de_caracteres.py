@@ -4,6 +4,7 @@ frase = 'Curso em Vídeo Python'
 fraseE = '   Aprenda Pytohn  '
 print(frase)
 print(fraseE)
+##
 
 print('-' * 12)
 
@@ -14,6 +15,7 @@ print(frase[9:21:2])  # saltar de 2 em 2
 print(frase[:5])  # a partir do inicio
 print(frase[15:])  # até o fim
 print(frase[9::3])  # até o fim e de 3 em 3
+##
 
 print('-' * 12)
 
@@ -24,6 +26,7 @@ print(frase.count('o', 0, 13))  # conta quantas vezes e fatia
 print(frase.find('deo'))  # mostra em que posição começou
 print(frase.find('Andoid'))  # se não existir retorna -1
 print('Curso' in frase)  # existe ou não
+##
 
 print('-' * 12)
 
@@ -36,16 +39,19 @@ print(frase.title())  # capitaliza a primeira letra de cada palavra
 print(fraseE.strip())  # remove os espaços desnecessários
 print(fraseE.rstrip())  # remove os espaços da direita
 print(fraseE.lstrip())  # remove os espaços da esquerda
+##
 
 print('-' * 12)
 
 # Divisão
 print(frase.split())  # dividir a string pelos espaços e cria uma lista
+##
 
 print('-' * 12)
 
 # Junção
 print('-'.join(frase))  # junta e adiciona
+##
 
 print('-' * 12)
 
