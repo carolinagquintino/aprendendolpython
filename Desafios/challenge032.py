@@ -1,2 +1,13 @@
 # Faça um programa que leia um ano qualquer e mostre se ele é BISSEXTO
 
+ano = int(input('Digite um ano: '))
+
+if str(ano)[1:].strip() == '00':
+    if ano % 400 == 0:
+        print('O ano {} é bissexto'.format(ano))
+    else:
+        print('O ano {} não é bissexto'.format(ano))
+elif ano % 4 == 0:
+    print('O ano {} é bissexto'.format(ano))
+else:
+    print('O ano {} não é bissexto'.format(ano))
