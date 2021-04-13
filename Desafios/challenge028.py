@@ -2,10 +2,17 @@
 # descobrir qual foi o número escolhido pelo computador. O Programa deverá escrever na tela se o usuário venceu ou
 # perdeu
 
-from random import randrange
-numPC = randrange(6)
+from time import sleep
+from random import randrange, randint
+
+numPC = randrange(6)  # randomico do incio (0) ao 6° (5)
+numpc2 = randint(0, 5)  # randomico de 0 a 5
+
 print('O computador escolheu um número entre 0 e 5.')
 numUser = int(input('Qual número você acha que o computador escolheu? '))
+
+print('Processando...')
+sleep(1)  # sleep faz aguardar um tempo determinado
 
 if numUser == numPC:
     print('Parabéns, você acertou! O número escolhido foi o {}'.format(numPC))
