@@ -8,7 +8,7 @@ print(fraseE)
 
 print('-' * 12)
 
-# Fatuamento
+# Fatiamento
 print(frase[9])
 print(frase[9:14])  # o último valor não entra na contagem
 print(frase[9:21:2])  # saltar de 2 em 2
