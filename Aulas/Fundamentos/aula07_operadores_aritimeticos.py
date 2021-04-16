@@ -7,6 +7,7 @@
 # // divisão inteira
 # % resto da divisão
 # == igual
+# != diferente
 
 # Ordem de precedência #
 # ()
